@@ -1,0 +1,49 @@
+idea for Snapshot Jan 25
+========================
+
+i Recently bought an idea and the idea is to Bring an HTML Parser into PalisadeOS. Here's the directory tree:
+
+html/
+├── include/
+│   ├── html.h                  # Public API
+│   ├── html_config.h           # Feature flags / limits
+│   ├── html_error.h            # Error codes & diagnostics
+│   └── html_types.h            # Core structs (Node, Attr, Token)
+│
+├── tokenizer/
+│   ├── tokenizer.h
+│   ├── tokenizer.c             # Main FSM driver
+│   ├── states.h                # Tokenizer states enum
+│   ├── states.c                # State transition logic
+│   ├── entity.c                # Entity decoding (&amp;, &#x..)
+│   └── input.c                 # Buffered char reader
+│
+├── tree/
+│   ├── tree.h
+│   ├── builder.c               # Stack-based tree construction
+│   ├── stack.c                 # Open element stack
+│   ├── implicit.c              # Implicit tag handling
+│   └── void.c                  # Void/self-closing elements
+│
+├── dom/
+│   ├── dom.h
+│   ├── node.c                  # Node allocation / free
+│   ├── attr.c                  # Attribute handling
+│   └── text.c                  # Text node merging
+│
+├── util/
+│   ├── arena.c                 # Arena allocator (critical for OS)
+│   ├── string.c                # Small-string helpers
+│   ├── utf8.c                  # Minimal UTF-8 validation
+│   └── debug.c                 # Optional tracing
+│
+├── validate/
+│   ├── rules.c                 # Optional structural checks
+│   └── sanitize.c              # Drop unsupported constructs
+│
+├── html_parse.c                # High-level parse() pipeline
+└── html_version.h              # Parser version / build ID
+
+Directory tree was made so i can write Thousands of Lines of code without Thousands of lines in 1 file.
+
+Also, my phone battery is 2%, so i don't have enough time to write (i'm using the GitHub web).
