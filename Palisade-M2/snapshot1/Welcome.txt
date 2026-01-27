@@ -1,0 +1,12 @@
+Welcome to Build Palisade M2 Snapshot 1!
+=============================
+
+This build represents the Second Milestone-named Build, the build `Milestone M2`.
+It is designed to run on the target phone `Samsung Galaxy A05S` and `UEFI` PCs as HALs and HW Support.
+This build is NOT an Android-based nor a Company Project.
+This build is for Developers Only.
+The codebase Rewrite has not started yet.
+This build is unbuildable for a while.
+This build is not the final M2, it's only a snapshot.
+
+Thank you for your collaboration!
