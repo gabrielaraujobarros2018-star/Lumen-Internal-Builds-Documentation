@@ -1,6 +1,6 @@
-# PalisadeOS M2 Goal
+# Lumen M2 - Goal
 
-in the Entire PalisadeOS's Journey, i've been using ChatGPT to code because i don't know code. So my goal is to, When i learn atleast begginner- and intermediate-level of C and C++, i rewrite most of PalisadeOS's code.
+in the Entire Lumen's Journey, i've been using ChatGPT to code because i don't know code, So my goal is to, When i learn atleast begginner- and intermediate-level of C and C++, i rewrite most of Lumen's code.
 
 I'm currently using Sololearn to learn C and C++. i Hope i can Learn so i can Make authentic code on PalisadeOS.
 
@@ -21,3 +21,7 @@ i'll avoid stubbing/scaffolding files much so i don't forget stubbed/placeholder
 Also, avoiding AI code will help me, because there will be no stubbed/faked/placeholder files disguised as "fully-functional".
 
 Thank you for your support.
+
+---
+
+Rewrite starting now, as for january 28 of 2026. i'm still testing my code knowledge, with this test, came the C switch files to test how much of C's switch concept i know!
