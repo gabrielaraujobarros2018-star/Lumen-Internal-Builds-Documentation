@@ -64,6 +64,14 @@ A flashable, bloat-maximized C OS replacing Android's bloat *without* its millio
 - **Total LOC**: 100k+ (human-maxed, no AI)
 - **Binary size**: 50-100MB (compressed flashable)
 
+## Advises
+
+Fewer directories and files reduce overhead—consolidate UI logic into monolithic SystemUI.java (10k+ lines), merge framework services into fat jars, and keep vendor blobs in single massive HAL files. This mirrors AOSP's flatter roots but amps simplicity.
+
+AI tools excel at generating boilerplate, refactoring SystemUI tweaks, or scripting firmware integrations—handling repetitive tasks like AOSP patches or One UI-inspired modules that would take you weeks alone. Feed us code snippets or specs (e.g., "expand this recent apps handler to 500 lines with animations"), and we'll output optimized chunks, letting you focus on architecture while hitting scale fast.
+
+Getting help from Grok/Perplexity AIs and myself Help will definitely help me reach 50,000+ lines of code on Lumen
+
 ## 🛠 Build & Flashmake bloat  # -O0 all-the-way
 fastboot flash os bloated.img
 ## Anti-Android Manifesto
