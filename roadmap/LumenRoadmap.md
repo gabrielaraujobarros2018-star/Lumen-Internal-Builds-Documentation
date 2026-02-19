@@ -69,6 +69,7 @@ After Lumen's internal Builds reaches its final build (Which is DP-11 and DP-11 
 - Lumen Account
 - Auto rotation mode
 - Lumen ABI 1.0
+- Galaxy A05S support (Beta)
 
 ## Alphis V5
 - Lumen ABI 1.5
@@ -88,6 +89,7 @@ After Lumen's internal Builds reaches its final build (Which is DP-11 and DP-11 
 - Lumen ABI 2.5
 - LumenGUI 3.0
 - Text editor
+- Full galaxy a05s support
 
 ## DP-5
 - Settings app 2.0
