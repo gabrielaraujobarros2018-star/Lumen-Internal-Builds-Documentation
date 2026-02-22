@@ -24,6 +24,10 @@ After Lumen's internal Builds reaches its final build (Which is DP-11 and DP-11 
 - Aluminum UI 0.6
 - LTK 0.5 (Lumen ToolKit)
 - Undo/Redo
+- Start of x86/x64/x86-64 Support
+- x86, x64, x86-64 Support ABIs
+- Adding Gnome-Shell (Keeping Phosh)
+- Dropping phone Support as bootloader unlocking is tightening and maintaining phone and pc architectures will become unmaintainable
 - APITK (API ToolKit)
 - Debug Tools 1.0
 
@@ -43,6 +47,7 @@ After Lumen's internal Builds reaches its final build (Which is DP-11 and DP-11 
 - Debug Tools 2.0
 - APITK 2.0
 - LTK 1.0
+- Phone support ended
 
 ## Alphis V2
 - UID Management improvements
